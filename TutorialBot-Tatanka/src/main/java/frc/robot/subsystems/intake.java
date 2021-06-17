@@ -17,5 +17,6 @@ public class intake{
 
     public void intakeCube(double speed){
         master.set(ControlMode.PercentOutput, speed);
+        SmartDashboard.putNumber("Intake Speed", speed);
     }
 }
